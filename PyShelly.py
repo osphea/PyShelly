@@ -2,7 +2,7 @@
 # Noah Cain
 import os
 import shutil
-import cowsay
+
 
 # import /system/zircon.py
 
