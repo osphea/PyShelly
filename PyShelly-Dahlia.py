@@ -58,32 +58,18 @@ def Removedir():             #For removing Directory
 
 def Help():
     print('''
-move (move files)
-
-copy (copy files)
-
-delete (delete files)
-
-Dirlist (list files in a directory)
-
-bash (use bash shell) (if supported)
-
-sh (use sh shell) (if supported)
-
-python3 (open a python3 shell)
-
-exit (exit this shell)
-
-pm (zircon ProcessManager)
+<commands>
+help, exit, move, copy, delete, Dirlist, makedir, removedir, bash, sh, python3, reboot, fxutils, shutdown
 ''')
-
-while True:
-    ans = input('''
+print('''
 PyShelly - ENV Dahlia
 
 type help for more information
 
-$ ''')
+''')
+
+while True:
+    ans = input('$ ')
     if ans == 'help':
         Help()
         
@@ -117,11 +103,14 @@ $ ''')
     if ans == 'python3':
         os.system("python3")
 
-    if ans == 'pm reboot':
+    if ans == 'reboot':
         os.system("pm reboot")
 
     if ans == 'fxutils':
         os.system("fxutils")
         
-    if ans == 'pm shutdown':
+    if ans == 'shutdown':
         os.system("pm shutdown")
+
+    
+    
