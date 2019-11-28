@@ -64,7 +64,11 @@ help, exit, move, copy, delete, Dirlist, makedir, removedir, bash, sh, python3, 
 END
 ''')
 print('''
-PyShelly - ENV Dahlia
+  ___       ______       ____    
+  / _ \__ __/ __/ /  ___ / / /_ __
+ / ___/ // /\ \/ _ \/ -_) / / // /
+/_/   \_, /___/_//_/\__/_/_/\_, / 
+     /___/                 /___/  
 
 type help for more information
 
