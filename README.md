@@ -1,4 +1,9 @@
-# PyShelly
+#    ___       ______       ____    
+#   / _ \__ __/ __/ /  ___ / / /_ __
+#  / ___/ // /\ \/ _ \/ -_) / / // /
+# /_/   \_, /___/_//_/\__/_/_/\_, / 
+#      /___/                 /___/  
+
 Easy command launching in fuchsia based operating systems
 
 ### Commands
