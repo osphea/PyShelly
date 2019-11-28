@@ -59,7 +59,9 @@ def Removedir():             #For removing Directory
 def Help():
     print('''
 <commands>
-help, exit, move, copy, delete, Dirlist, makedir, removedir, bash, sh, python3, reboot, fxutils, shutdown
+help, exit, move, copy, delete, Dirlist, makedir, removedir, bash, sh, python3, reboot, fxutils, shutdown, listblocks, listpci, driverdump
+
+END
 ''')
 print('''
 PyShelly - ENV Dahlia
@@ -112,5 +114,12 @@ while True:
     if ans == 'shutdown':
         os.system("pm shutdown")
 
-    
+    if ans == 'listblocks':
+        os.system("lsblk")
+
+    if ans == 'listpci':
+        os.system("k lspci")
+
+    if ans == 'driverdump':
+        os.system("dm dump")
     
