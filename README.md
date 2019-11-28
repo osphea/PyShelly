@@ -22,9 +22,13 @@ Easy command launching in fuchsia based operating systems
 * `reboot` reboot the system
 * `shutdown` shutdown the system
 
-Debugging
+#### Debugging
 * `listblocks` list blocks
 * `listpci` check devices are identified properly
 * `driverdump` look at what drivers got attached 
+
+#### Fun
+* `dahliaos-ascii` print the dahliaos logo in ascii letters
+
 
 
