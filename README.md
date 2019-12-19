@@ -2,7 +2,7 @@
  
 Easy command launching in fuchsia based operating systems
 
-[](https://github.com/dahlia-os/Icons/blob/master/Application-Icons/Pyshelly.png)
+[PyShelly.png](https://github.com/dahlia-os/Icons/blob/master/Application-Icons/Pyshelly.png)
 
 ### Commands
 
