@@ -2,6 +2,8 @@
  
 Easy command launching in fuchsia based operating systems
 
+[pyshelly](https://github.com/dahlia-os/Icons/blob/master/Application-Icons/Pyshelly.png)
+
 ### Commands
 
 #### Basic
